@@ -46,17 +46,13 @@
 #ifndef SGD2FCM_COMPILE_OPTIONS_H_
 #define SGD2FCM_COMPILE_OPTIONS_H_
 
-#ifndef ENABLE_CLASSIC_CHAR_SELECT
-#define ENABLE_CLASSIC_CHAR_SELECT 0
-#endif  /* ENABLE_CLASSIC_CHAR_SELECT */
-
 /*
  * This enables the patch to replace the "New Character" background. It
  * is disabled by default because the Amazon is standing on a box, and
  * the campfire is not aligned to the position of the characters.
  */
 #ifndef ENABLE_CLASSIC_CHAR_CREATE_SCREEN_BACKGROUND_PATCH
-#define ENABLE_CLASSIC_CHAR_CREATE_SCREEN_BACKGROUND_PATCH 1
+#define ENABLE_CLASSIC_CHAR_CREATE_SCREEN_BACKGROUND_PATCH 0
 #endif  /* ENABLE_CLASSIC_CHAR_CREATE_SCREEN_BACKGROUND_PATCH */
 
 /*
@@ -65,7 +61,7 @@
  * Character Select Screen, which is not available (yet).
  */
 #ifndef ENABLE_CLASSIC_REALM_SELECT_PATCH
-#define ENABLE_CLASSIC_REALM_SELECT_PATCH 1
+#define ENABLE_CLASSIC_REALM_SELECT_PATCH 0
 #endif  /* ENABLE_CLASSIC_REALM_SELECT_PATCH */
 
 #endif  /* SGD2FCM_COMPILE_OPTIONS_H_ */
