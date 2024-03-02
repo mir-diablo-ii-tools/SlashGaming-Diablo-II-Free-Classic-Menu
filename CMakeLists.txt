@@ -25,6 +25,7 @@ add_library(${PROJECT_NAME} SHARED)
 
 add_subdirectory("src")
 add_subdirectory("include")
+add_subdirectory("resource")
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE NOMINMAX)
 target_include_directories(${PROJECT_NAME}
