@@ -49,7 +49,7 @@
 
 #include "common/config.h"
 
-struct MusicEntry classic_music_table[] = {
+static struct MusicEntry classic_music_table[] = {
   { "data\\global\\music\\common\\options.wav" },
   { "data\\global\\music\\act1\\caves.wav" },
   { "data\\global\\music\\act1\\monastery.wav" },
@@ -60,7 +60,7 @@ struct MusicEntry classic_music_table[] = {
   { "data\\global\\music\\act3\\kurastsewer.wav" }
 };
 
-struct MusicEntry lod_music_table[] = {
+static struct MusicEntry lod_music_table[] = {
   { "data\\global\\music\\introedit.wav" },
   { "data\\global\\music\\act5\\icecaves.wav" },
   { "data\\global\\music\\act5\\xtemple.wav" },
