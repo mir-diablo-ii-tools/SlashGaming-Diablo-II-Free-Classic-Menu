@@ -1,15 +1,15 @@
 # SlashGaming Diablo II Free Classic Menu
-This is a project aimed at fixing Diablo II's video mode related issues.
+This is a project aimed at changing the Diablo II: Lord of Destruction main menu back to the Classic interface, with no loss in functionality. This is an all-in-one change that requires no MPQ edits, and is configurable via an automatically generated INI file.
 
 ## Features
-- Removes the symbol cycling issue when changing resolutions for the DirectDraw, Direct3D, and Glide video modes for newer Windows versions and graphics cards. Game startup should now be much quicker.
-- Fixes crash when starting Direct3D in video mode for newer Windows versions and graphics cards.
-- DirectDraw can now be used in all versions above 1.13C, and the video mode can be selected by the appropriate entry in the registry.
+- Restores the Classic menu theme.
+- Restores the Classic backgrounds and text display for various menus.
+- Restores the Classic position of Main Menu buttons.
 
 ## Usage
 The DLL does nothing on its own and must be loaded into the game via external tools.
 
-This project supports nearly every version of Diablo II since 1.00. The latest version of Diablo II that is supported is 1.14D.
+This project supports nearly every version of Diablo II since 1.07 beta. The latest version of Diablo II that is supported is 1.14D.
 
 ## Multiplayer Use
 This patch will work in any multiplayer setting, but using this patch in Battle.net will most likely get you banned.
