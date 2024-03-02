@@ -11,6 +11,9 @@ The DLL does nothing on its own and must be loaded into the game via external to
 
 This project supports nearly every version of Diablo II since 1.07 beta. The latest version of Diablo II that is supported is 1.14D.
 
+## System Requirements
+It requires only the MSVCRT.dll system library, which is included with Windows 95 OSR2.5. It can run on any system that can run the Windows version of Diablo II.
+
 ## Multiplayer Use
 This patch will work in any multiplayer setting, but using this patch in Battle.net will most likely get you banned.
 
