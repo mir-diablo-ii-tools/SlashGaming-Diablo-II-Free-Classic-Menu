@@ -15,6 +15,7 @@
 
 # CMake
 out/
+build/
 _deps/
 CMakeSettings.json
 *.dll.embed.manifest
@@ -73,6 +74,7 @@ progress.marks
 *.ilk
 *.iobj
 *.ipdb
+*.idx
 *.exp
 *.pch
 *.pdb
